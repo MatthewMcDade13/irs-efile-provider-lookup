@@ -4,7 +4,7 @@ Uses IRS site to query data about irs efile providers given an area code in Cali
 
 
 ```bash
-git clone https://www.irs.gov/efile-index-taxpayer-search?zip=93030&state=6&page=3
+git clone https://github.com/MatthewMcDade13/irs-efile-provider-lookup.git
 ```
 
 
