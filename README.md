@@ -30,7 +30,7 @@ npm run main -- --zip 93030 -o "out.json" --sort +businessName telephone
 ```
 
 ### Possible inputs for --sort option
-
+- use fields of Provider interface, given below
 - indexes directly into Provider interface:
 
 
