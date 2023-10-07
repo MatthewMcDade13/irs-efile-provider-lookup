@@ -1,0 +1,29 @@
+{
+  "name": "irs-efile-provider-lookup",
+  "version": "1.0.0",
+  "description": "Uses IRS site to query data about irs efile providers given an area code in California.",
+  "main": "./build/main.js",
+
+  "scripts": {
+    "main": "tsc && node ./build/main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MatthewMcDade13/irs-efile-provider-lookup.git"
+  },
+  "author": "MatthewMcDade13",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/MatthewMcDade13/irs-efile-provider-lookup/issues"
+  },
+  "homepage": "https://github.com/MatthewMcDade13/irs-efile-provider-lookup#readme",
+  "devDependencies": {
+    "@types/node": "^20.8.3",
+    "typescript": "^5.2.2"
+  },
+  "dependencies": {
+    "axios": "^1.5.1",
+    "cheerio": "^1.0.0-rc.12",
+    "commander": "^11.0.0"
+  }
+}
