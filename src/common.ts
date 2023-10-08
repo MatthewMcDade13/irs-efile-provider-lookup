@@ -5,7 +5,7 @@
  *
  *  @returns if arr[i] === null | undefined, returns arr[0...i-1]
  *
- *  @returns first N non-null|undefined elements from arr @returns first N non-null|undefined elements from arr 
+ *  @returns first N non-null|undefined elements from arr
  *
 */
 export function takeN<T>(arr: ReadonlyArray<T>, n: number): NonNullable<T[]> {
