@@ -7,15 +7,12 @@ Uses IRS site to query data about irs efile providers given an area code in Cali
 git clone https://github.com/MatthewMcDade13/irs-efile-provider-lookup.git
 ```
 
-
 ```bash
 cd efile-index-taxpayer-search
-
 npm install
 ```
 
 ### Example
-
 
 - passing --zip is mandatory.
 - default sorting is DESC, to sort by ASC, include a '+' in front of field name.
@@ -24,7 +21,6 @@ npm install
 
 ```bash
 npm run main -- [-z --zip] <ZIPCODE> [-o --out] <FILEPATH> [-s --sort] <SORT_COLUMNS...>
-
 npm run main -- --zip 93030 -o "out.json" --sort +businessName telephone 
 
 ```
